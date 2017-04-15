@@ -15,7 +15,7 @@ public class View {
 			System.out.println(message + value);
 		}
 		
-		public void printSentence (String word_1, String word_2){
-			System.out.println(View.OUR_SENTENCE + word_1 + " " + word_2);
+		public void printSentence (String sentence){
+			System.out.println(View.OUR_SENTENCE + sentence);
 		}
 }

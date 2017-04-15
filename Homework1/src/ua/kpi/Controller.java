@@ -20,10 +20,9 @@ public class Controller {
 	public void processUser(){
 		Scanner sc = new Scanner(System.in);
 		
-		model.setWord_1(inputWord1WithScanner(sc));
-		model.setWord_2(inputWord2WithScanner(sc));
+		model.setSentence(inputWord1WithScanner(sc) + " " + inputWord2WithScanner(sc));
 		
-		view.printSentence(model.getWord_1(), model.getWord_2());
+		view.printSentence(model.getSentence());
 	}
 	
 	// The Utility methods
