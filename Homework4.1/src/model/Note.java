@@ -51,8 +51,6 @@ public class Note {
 	}
 	public void setGroup(String group) throws GroupDoesNotExistException {
 		for (Groups band : Groups.values()){
-			System.out.println(band.getGroupName());
-			System.out.println(group);
 			if (band.getGroupName().equals(group)){
 				this.group = group;
 				return;
